@@ -5,7 +5,7 @@ public class Primes {
         boolean[] notCrossedArr = new boolean[Integer.parseInt(args[0]) + 1];
         int p = 2, jumps;
 
-        System.out.println("Prime numbers up to " + args[0]);
+        System.out.println("Prime numbers up to " + args[0] + ":");
 
         for (int i = 2; i < primeNums.length; i++) {
             primeNums[i] = true;
