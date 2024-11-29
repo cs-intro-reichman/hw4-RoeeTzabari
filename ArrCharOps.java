@@ -177,6 +177,8 @@ public class ArrCharOps {
         char c1, c2;
         String s1, s2;
 
+        if (str1.length() == 0 || str2.length() == 0) return -2;
+
         if (str1.length() > str2.length()) {
             shorterStrLength = str2.length();
         }
