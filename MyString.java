@@ -25,10 +25,8 @@ public class MyString {
     public static boolean contains(String str1, String str2) {
         
         int index = 0;
-        str1 = str1.toLowerCase();
-        str2 = str2.toLowerCase();
-
-        if (str1.length() == 0 || str2.length() == 0) return false;
+        
+        if (str1.length() != 0 && str2.length() == 0) return true;
 
         for (int i = 0; i < str1.length(); i++) {
             if (str1.charAt(i) == str2.charAt(0)) {
