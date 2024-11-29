@@ -17,12 +17,10 @@ public class Primes {
             jumps = p;
             notCrossedArr[p] = false;
             p = p + p;
-            System.out.println(p);
 
             while (p < primeNums.length) {
                 primeNums[p] = false;
                 p += jumps;
-                System.out.println(2);
             }
             p = notCrossed(notCrossedArr);
 
