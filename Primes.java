@@ -34,7 +34,7 @@ public class Primes {
                 System.out.println(i);
             }
         }
-        int percent = (countPrime * 100 / (primeNums.length - 3));
+        int percent = (countPrime * 100 / (primeNums.length - 1));
 
         System.out.println("There are " + countPrime + " primes between 2 and " + (primeNums.length - 1) + " (" + percent + "% are primes)");
 
